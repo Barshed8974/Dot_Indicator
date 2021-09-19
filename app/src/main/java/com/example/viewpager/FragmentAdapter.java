@@ -20,12 +20,14 @@ public class FragmentAdapter extends FragmentStateAdapter {
                 return FragmentB.newInstance("Second Fragment");
             case 2:
                 return FragmentC.newInstance("Third Fragment");
+            case 3:
+                return FragmentC.newInstance("Fourth Fragment");
         }
         return null;
     }
 
     @Override
     public int getItemCount() {
-        return 3;
+        return 4;
     }
 }
