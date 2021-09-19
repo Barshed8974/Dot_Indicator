@@ -33,7 +33,6 @@ public class MainActivity extends AppCompatActivity {
         new TabLayoutMediator(tabLayout, mViewPager, new TabLayoutMediator.TabConfigurationStrategy() {
             @Override
             public void onConfigureTab(@NonNull TabLayout.Tab tab, int position) {
-                Log.d("Lloyd", "onConfigureTab called");
             }
         }).attach();
     }
